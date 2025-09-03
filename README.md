@@ -4,8 +4,6 @@
 
 ## 📌 Descrição do Projeto
 
-## 📸 Capturas de Tela
-
 <p align="center">
   <img src="screenshots/conversor_pdf.png" alt="Tela Inicial do Conversor PDF">
 </p>
