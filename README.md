@@ -95,7 +95,7 @@ O PDF será baixado automaticamente e a interface será limpa após 2 segundos
 
 | Tela Inicial do Conversor PDF |
 |-------------------------------|
-| ![Tela Inicial](/screenshots/conversor_pdf.png) |
+<img src="screenshots/conversor_pdf.png">
 
 🛠️ Créditos
 Desenvolvido por Kowalsky Junior – GitHub
