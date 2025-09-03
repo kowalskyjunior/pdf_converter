@@ -4,6 +4,12 @@
 
 ## 📌 Descrição do Projeto
 
+## 📸 Capturas de Tela
+
+<p align="center">
+  <img src="screenshots/conversor_pdf.png" alt="Tela Inicial do Conversor PDF">
+</p>
+
 O **Conversor de Arquivos para PDF** é uma aplicação web que permite transformar diversos tipos de arquivos em PDFs com facilidade, mantendo um **design elegante, responsivo e interativo**, ideal para profissionais e empresas que precisam de conversões rápidas e confiáveis.
 
 **Funcionalidades avançadas:**
@@ -90,12 +96,6 @@ Clique em “Converter para PDF”
 A barra de progresso mostrará o status da conversão
 
 O PDF será baixado automaticamente e a interface será limpa após 2 segundos
-
-## 📸 Capturas de Tela
-
-<p align="center">
-  <img src="screenshots/conversor_pdf.png" alt="Tela Inicial do Conversor PDF">
-</p>
 
 🛠️ Créditos
 Desenvolvido por Kowalsky Junior – GitHub
