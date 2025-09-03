@@ -19,19 +19,15 @@ O **Conversor de Arquivos para PDF** é uma aplicação web que permite transfor
 
 ## ✨ Funcionalidades Detalhadas
 
-| Funcionalidade        | Descrição                                                      |
-|----------------------|----------------------------------------------------------------|
-| Drag & Drop           | Arraste arquivos diretamente para a área de upload            |
-| Upload tradicional    | Selecione arquivos via botão de upload                        |
-| Miniaturas interativas| Visualize imagens e ícones de outros arquivos                |
-| Excluir arquivos      | Remova arquivos individualmente antes da conversão           |
-| Reorganizar arquivos  | Arraste arquivos para mudar a ordem antes de combinar PDFs    |
-| Combinar PDFs         | Opção de juntar todos os arquivos em um único PDF            |
-| Barra de progresso    | Visualiza o progresso da conversão em tempo real             |
-| Mensagem de sucesso/erro | Feedback visual claro ao usuário                           |
-         |
-| Rodapé fixo           | Link clicável para o GitHub do autor                         |
-
+- **🖱️ Drag & Drop:** Arraste arquivos diretamente para a área de upload  
+- **📁 Upload tradicional:** Selecione arquivos via botão de upload  
+- **🖼️ Miniaturas interativas:** Visualize imagens e ícones de outros arquivos  
+- **❌ Excluir arquivos:** Remova arquivos individualmente antes da conversão  
+- **🔄 Reorganizar arquivos:** Arraste arquivos para mudar a ordem antes de combinar PDFs  
+- **📑 Combinar PDFs:** Opção de juntar todos os arquivos em um único PDF  
+- **📊 Barra de progresso:** Visualiza o progresso da conversão em tempo real  
+- **✅ Mensagem de sucesso/erro:** Feedback visual claro ao usuário  
+                   
 ---
 
 ## 💻 Tecnologias Utilizadas
