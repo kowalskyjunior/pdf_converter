@@ -51,6 +51,7 @@ O **Conversor de Arquivos para PDF** é uma aplicação web que permite transfor
 
 ## 📂 Estrutura do Projeto
 
+```
 pdf-formatter/
 │
 ├── index.html # Página principal
@@ -63,9 +64,7 @@ pdf-formatter/
 ├── FileSaver.min.js # Biblioteca FileSaver.js
 ├── mammoth.browser.min.js # Biblioteca Mammoth.js
 └── xlsx.full.min.js # Biblioteca SheetJS XLSX
-
-yaml
-Copiar código
+```
 
 ---
 
