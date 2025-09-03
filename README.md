@@ -91,8 +91,11 @@ A barra de progresso mostrará o status da conversão
 
 O PDF será baixado automaticamente e a interface será limpa após 2 segundos
 
-📸 Capturas de Tela
-Upload de Arquivos	Conversão Concluída
+## 📸 Capturas de Tela
+
+| Tela Inicial do Conversor PDF |
+|-------------------------------|
+| ![Tela Inicial](./screenshots/conversor_pdf.png) |
 
 🛠️ Créditos
 Desenvolvido por Kowalsky Junior – GitHub
