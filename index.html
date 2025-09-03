@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor PDF</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bibliotecas -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.10.0/mammoth.browser.min.js"></script>
+    <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-6">
+
+    <div class="w-full max-w-4xl bg-white rounded-3xl shadow-2xl p-8 flex flex-col gap-6">
+
+        <h1 class="text-4xl font-extrabold text-gray-800 text-center">📄 Conversor PDF</h1>
+
+        <!-- Drag & Drop -->
+        <div id="dropZone"
+            class="w-full p-8 border-2 border-dashed border-gray-300 rounded-2xl text-center bg-gray-50 hover:border-blue-500 transition cursor-pointer">
+            <p class="text-gray-500">Arraste arquivos aqui ou clique para selecionar</p>
+            <input type="file" id="fileInput" multiple class="hidden">
+        </div>
+
+        <!-- Lista de arquivos -->
+        <div id="fileList" class="flex flex-col gap-3"></div>
+
+        <!-- Opções -->
+        <div id="combineContainer" class="flex items-center gap-4" style="display:none;">
+            <input type="checkbox" id="combinePDFs" class="w-5 h-5">
+            <label for="combinePDFs" class="text-gray-700 font-medium">Combinar todos os arquivos em um único
+                PDF</label>
+        </div>
+
+        <!-- Botão Converter -->
+        <button id="processBtn"
+            class="w-full bg-blue-600 hover:bg-blue-700 transition text-white font-bold py-3 rounded-xl shadow-lg text-lg">
+            Converter para PDF
+        </button>
+
+        <!-- Barra de progresso -->
+        <div class="w-full bg-gray-200 rounded-full h-3 mt-4 overflow-hidden">
+            <div id="progressBar" class="h-3 bg-blue-600 w-0 transition-all"></div>
+        </div>
+
+        <!-- Mensagem -->
+        <p id="message" class="text-center mt-2 font-medium"></p>
+    </div>
+
+    <footer class="fixed bottom-4 w-full text-center text-gray-500">
+        Feito por <a href="https://github.com/kowalskyjunior" target="_blank"
+            class="font-semibold text-blue-600 hover:underline">Kowalsky Junior</a>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
